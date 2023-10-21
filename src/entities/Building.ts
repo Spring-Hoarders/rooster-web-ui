@@ -6,7 +6,7 @@ export default interface Building {
   apartmentNr: number;
   createdBy: string;
   createdAt: Date;
-  last_modifed_by: string;
+  lastModifedBy: string;
   lastModifiedAt: Date;
   userEntity: { user: User };
 }
