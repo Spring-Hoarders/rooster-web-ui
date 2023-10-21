@@ -1,4 +1,4 @@
-import { Status } from "../enum/Status";
+import { ContractStatus } from "../enum/ContractStatus";
 
 export default interface Contract {
   contractId: string;
@@ -6,5 +6,5 @@ export default interface Contract {
   customerId: string;
   startsAt: Date;
   endsAt: Date;
-  status: Status; // the status enumeration (for the property current status)
+  status: ContractStatus; // the status enumeration (for the property current status)
 }

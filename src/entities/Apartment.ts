@@ -1,7 +1,9 @@
-import { Status } from "../enum/Status";
+import { ApartmentStatus } from "../enum/ApartmentStatus";
 
 export default interface Apartment {
   apartamentId: string;
   floorId: string;
-  status: Status;
+  status: ApartmentStatus;
+  rooms: number;
+  type: string;
 }
