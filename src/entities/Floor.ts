@@ -1,1 +1,3 @@
-export default interface Floor {}
+export default interface Floor {
+  floorId: string;
+}

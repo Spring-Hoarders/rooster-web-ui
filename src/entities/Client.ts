@@ -4,6 +4,6 @@ export default interface Client {
   address: string;
   email: string;
   telephone: string;
-  created_at: Date;
-  last_modified: Date;
+  createdAt: Date;
+  lastModified: Date;
 }

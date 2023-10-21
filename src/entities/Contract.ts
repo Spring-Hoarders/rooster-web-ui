@@ -1,10 +1,10 @@
 import { Status } from "../enum/Status";
 
 export default interface Contract {
-  contract_id: string;
-  apartment_id: string;
-  customer_id: string;
-  starts_at: Date;
-  ends_at: Date;
+  contractId: string;
+  apartmentId: string;
+  customerId: string;
+  startsAt: Date;
+  endsAt: Date;
   status: Status; // the status enumeration (for the property current status)
 }
