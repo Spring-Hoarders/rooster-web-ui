@@ -1,4 +1,5 @@
 type Apartment = {
+  id: string;
   floorId: string;
   apartmentTypeId: number;
   name: string;
