@@ -1,6 +1,14 @@
 type Apartment = {
+  floorId: string;
+  apartmentTypeId: number;
   name: string;
-  capacity: number;
+  status: ApartmentStatus;
 };
+
+export const enum ApartmentStatus {
+  Free,
+  SemiOccupied,
+  Occupied,
+}
 
 export default Apartment;
