@@ -20,6 +20,6 @@ export const enum ContractStatus {
 }
 export const enum GuaranteeType {
   PublicFunds,
-  PrivetFunds,
+  PrivatFunds,
 }
 export default Contract;

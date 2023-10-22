@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
-import { DashboardPage, HomePage, Layout } from "./pages";
+import { HomePage, Layout } from "./pages";
 import ErrorPage from "./pages/ErrorPage";
+import BuildingPage from "./pages/BuildingPage";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -8,7 +10,10 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       { index: true, element: <HomePage /> },
-      { path: "dashboard", element: <DashboardPage /> },
+      {
+        path: "buildings?id=:buildingId&floorId=:floorId",
+        element: <BuildingPage />,
+      },
     ],
   },
 ]);
