@@ -7,21 +7,21 @@ import {
 export const clients: Client[] = [
   {
     id: "clientOne",
-    apartmentId: "1",
+    apartmentId: "B1F1A1",
     firstName: "Free1",
     lastName: "Bird1",
     phoneNumber: "06911111111",
   },
   {
     id: "clientTwo",
-    apartmentId: "2",
+    apartmentId: "B1F1A1",
     firstName: "Erald",
     lastName: "Caka",
     phoneNumber: "06911111111",
   },
   {
     id: "clientThree",
-    apartmentId: "3",
+    apartmentId: "B1F1A1",
     firstName: "Enkel",
     lastName: "Murati",
     phoneNumber: "06911111111",
